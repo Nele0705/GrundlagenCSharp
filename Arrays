@@ -27,7 +27,7 @@ namespace Arrays2
             namenliste[0, 0] = "Nele";
             namenliste[0, 1] = "19";
 
-            namenliste[1, 0] = "Nils";
+            namenliste[1, 0] = "Bob";
             namenliste[1, 1] = "22";
 
             Console.WriteLine("Name: " + namenliste[1, 0]);
