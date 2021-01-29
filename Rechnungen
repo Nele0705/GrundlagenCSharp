@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Rechnungen
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int zahl1 = 10 / 3; // Division
+            int zahl2 = 10 * 3; // Multiplikation
+            int zahl3 = 10 + 3; // Addition
+            int zahl4 = 10 - 3; // Subtration
+            int zahl5 = 10 % 3; // Rest wird angezeigt
+            Console.WriteLine(zahl1);
+            Console.WriteLine(zahl2);
+            Console.WriteLine(zahl3);
+            Console.WriteLine(zahl4);
+            Console.WriteLine(zahl5);
+            Console.ReadKey();
+        }
+    }
+}
