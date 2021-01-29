@@ -1,0 +1,27 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Foreach
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string[] namensliste = new string[4];
+
+            namensliste[0] = "Peter";
+            namensliste[1] = "Max";
+            namensliste[2] = "Moritz";
+            namensliste[3] = "Flo";
+
+            foreach (string name in namensliste)
+            {
+                Console.WriteLine(name);
+            }
+            Console.ReadKey();
+        }
+    }
+}
