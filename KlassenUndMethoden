@@ -1,0 +1,81 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Klassen
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Person Nele = new Person();
+            Person Hugo = new Person();
+
+            Tier Hund = new Tier();
+            Tier Pferd = new Tier();
+
+            Pferd.Tiername = "Pferd";
+            Pferd.Tieralter = "3";
+
+            Hund.Tiername = "Hund";
+            Hund.Tieralter = "8";
+
+            Nele.Name = "Nele";
+            Nele.Alter = "19";
+
+            Hugo.Name = "Hugo";
+            Hugo.Alter = "44";
+
+            Nele.SageJaMoin();
+            Nele.SageAlter();
+
+            Hugo.SageAlter();
+
+            Hund.SageTiername();
+            Hund.SageTieralter();
+
+            Console.ReadKey();
+        }
+
+    }
+    class Person
+    {
+        //Eigenschaften
+        public string Name { get; set; }
+        public string Alter { get; set; }
+
+        //Methoden
+        public void SageJaMoin()
+        {
+            Console.WriteLine(Name + " sagt: ja moin!");
+
+        }
+        public void SageAlter()
+        {
+            Console.WriteLine(Name + " sagt: Ich bin " + Alter);
+
+        }
+
+    }
+    class Tier
+    {
+        //Eigenschaften
+        public string Tiername { get; set; }
+        public string Tieralter { get; set; }
+
+        //Methoden
+        public void SageTiername()
+        {
+            Console.WriteLine("Es ist ein " + Tiername);
+
+        }
+        public void SageTieralter()
+        {
+            Console.WriteLine("Es ist " + Tieralter);
+
+        }
+    }
+}
+
