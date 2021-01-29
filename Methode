@@ -1,0 +1,24 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Methode
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine(Multiplikation(5, 3));
+            Console.ReadKey();
+
+        }
+
+        static int Multiplikation(int zahl1, int zahl2)
+        {
+            int ergebnis = zahl1 * zahl2;
+            return ergebnis;
+        }
+    } 
+}
