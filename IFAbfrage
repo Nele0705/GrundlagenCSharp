@@ -1,0 +1,27 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Abfrage
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int alter = 17;
+
+            if (alter >= 18)
+            {
+                Console.WriteLine("Du bist volljährig");
+            }
+            else
+            {
+                Console.WriteLine("Du bist minderjährig");
+            }
+
+            Console.ReadKey();
+        }
+    }
+}
