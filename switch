@@ -1,0 +1,74 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace switch2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int zahl = 0;
+
+            switch (zahl)
+            {
+                case 1:
+                    Console.WriteLine("zahl hat den Wert 1");
+            break;
+                case 2:
+                    Console.WriteLine("zahl hat den Wert 2");
+            break;
+
+                default:
+                    Console.WriteLine("zahl hat einen anderen Wert!");
+                        break;
+            }
+
+            int monat = 12;
+            switch(monat)
+            {
+                case 1:
+                    Console.WriteLine("Du hast den Januar gewählt");
+                    break;
+                case 2:
+                    Console.WriteLine("Du hast den Februar gewählt!");
+                    break;
+                case 3:
+                    Console.WriteLine("Du hast den März gewählt!");
+                        break;
+                case 4:
+                    Console.WriteLine("Du hast den April gewählt!");
+                    break;
+                case 5:
+                    Console.WriteLine("Du hast den Mai gewählt!");
+                    break;
+                case 6:
+                    Console.WriteLine("Du hast den Juni gewählt!");
+                    break;
+                case 7:
+                    Console.WriteLine("Du hast den Juli gewählt!");
+                    break;
+                case 8:
+                    Console.WriteLine("Du hast den August gewählt!");
+                    break;
+                case 9:
+                    Console.WriteLine("Du hast den September gewählt!");
+                    break;
+                case 10:
+                    Console.WriteLine("Du hast den Oktober gewählt!");
+                    break;
+                case 11:
+                    Console.WriteLine("Du hast den November gewählt!");
+                    break;
+                case 12:
+                    Console.WriteLine("Du hast den Dezember gewählt!");
+                    break;
+
+            }
+            Console.ReadKey();
+        }
+
+    }
+}
