@@ -1,2 +1,0 @@
-# GrundlagenCSharp
-Grundlagen in C#
